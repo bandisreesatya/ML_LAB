@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNZQlNr+8NWQ3m/C7y35OYL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bandisreesatya/ML_LAB/blob/main/EXPERIMENT-1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cz-SFElKjNeY",
+        "outputId": "ebc42949-4fcc-44d0-8aee-1ca6a1a9812a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "mean = :86.5\n",
+            "meadian = :87.5\n",
+            "mode = :85\n",
+            "variance = :34.5\n",
+            "std_dev = :5.873670062235365\n"
+          ]
+        }
+      ],
+      "source": [
+        "import statistics\n",
+        "scores=[78,85,90,88,76,95,89,92,85,87]\n",
+        "mean_value=statistics.mean(scores)\n",
+        "median_value=statistics.median(scores)\n",
+        "mode_value=statistics.mode(scores)\n",
+        "variance_value=statistics.variance(scores)\n",
+        "std_dev_value=statistics.stdev(scores)\n",
+        "print(f\"mean = :{mean_value}\")\n",
+        "print(f\"meadian = :{median_value}\")\n",
+        "print(f\"mode = :{mode_value}\")\n",
+        "print(f\"variance = :{variance_value}\")\n",
+        "print(f\"std_dev = :{std_dev_value}\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "C263hhTXo-2H"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
